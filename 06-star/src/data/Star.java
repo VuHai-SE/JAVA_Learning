@@ -1,4 +1,4 @@
-
+package data;
 
 public class Star {
     private String name;
