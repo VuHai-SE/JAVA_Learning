@@ -1,5 +1,5 @@
-package src.data.Star;
-import Star.java;
+package runtime;
+import data.Star;
 
 public class Program {
     public static void main(String[] args) {
