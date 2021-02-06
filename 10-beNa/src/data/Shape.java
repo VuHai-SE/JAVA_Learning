@@ -30,7 +30,7 @@ public abstract class Shape {
     }
    
     //Mình sẽ tạo ra những khái niệm tính chu vi hay diện tích thôi nhưng ko cần định nghĩa (implement)
-    //viec dinh nghia minhf nhuong lai cho thang con cua minh
+    //Việc định nghĩa 
     //no ke thua cac ham cuia minh thi no phai implement (implicit)
     //co truong hop class ke thua abtract class nhung laij khong muon implement cac abtract method
     //=> con se bi khuyet tata, khong tao dc object bhtg
