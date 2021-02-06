@@ -30,14 +30,14 @@ public abstract class Shape {
     }
    
     //Mình sẽ tạo ra những khái niệm tính chu vi hay diện tích thôi nhưng ko cần định nghĩa (implement)
-    //Việc định nghĩa 
-    //no ke thua cac ham cuia minh thi no phai implement (implicit)
-    //co truong hop class ke thua abtract class nhung laij khong muon implement cac abtract method
-    //=> con se bi khuyet tata, khong tao dc object bhtg
+    //Việc định nghĩa mình nhường lại cho thằng con của mình
+    //nó kế thừa hàm của mình thì nó phải implement (implicit)
+    //có trường hợp class kế thừa abstract class nhưng lại không muốn implement các abstract method
+    //=> con sẽ bị khuyết tật, không tạo đc object bhtg
     
-    //abtract class co the chua methofd bthg va abtract method
-    //nhung maf mot classs bthg ma co abtract method thi 100% laf abtract class
-    //abtract class van tao dc object bthg nhung pahi thong qua anonymours class (class vo hinh)
+    //abstract class có thể chứa method bthg va abstract method
+    //nhưng mà một classs bthg mà có abstract method thì 100% là abstract class
+    //abstract class vân tạo được object bthg nhưng phải thông qua annonymous class (class vô danh)
     
     public abstract double getArea();
     public abstract double getPetrimeter();
