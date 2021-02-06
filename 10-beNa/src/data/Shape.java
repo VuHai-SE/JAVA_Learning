@@ -29,7 +29,7 @@ public abstract class Shape {
         this.color = color;
     }
    
-    //minh se tao ra cac khai niem tinh chu cu hay dien tich thoi maf khong dinh nghia (implement)
+    //Mình sẽ tạo ra những khái niệm tính chu vi hay diện tích thôi nhưng ko cần định nghĩa (implement)
     //viec dinh nghia minhf nhuong lai cho thang con cua minh
     //no ke thua cac ham cuia minh thi no phai implement (implicit)
     //co truong hop class ke thua abtract class nhung laij khong muon implement cac abtract method
